@@ -1,0 +1,72 @@
+   0 ls
+   1 /# ls
+   2 pwd
+   3 cd ..
+   4 ls
+   5 cd /home/
+   6 pwd
+   7 mkdir user1
+   8 ls
+   9 cd /user1
+  10 cd user1
+  11 mkdir task1
+  12 cd task1
+  13 touch file1.txt
+  14 ls
+  15 ls -l
+  16 cd/home
+  17 cd /home
+  18 tree
+  19 clear
+  20 cd /home
+  21 ls
+  22 mkdir user2
+  23 ls
+  24 cd user2
+  25 mkdir task2
+  26 ls
+  27 cd task2/
+  28 touch
+  29 touch file2.txt
+  30 ls
+  31 cd
+  32 mkdir /home/user3
+  33 mkdir /home/user3/task3
+  34 touch /home/user/task3/file3.txt
+  35 tree /home
+  36 touch /home/user3/task3/file3.txt
+  37 tree /home/
+  38 clear
+  39 tree /home/
+  40 mkdir /home/user4/task4
+  41 mkdir --help
+  42 mkdir -p  /home/user4/task4
+  43 touch /home/user4/task4/file4.txt
+  44 tree /home/
+  45 ls /
+  46 mkdir -p /opt/maks/123  /tmp/maks2 /etc/maks3
+  47 clear
+  48  tree /home/
+  49 cp /home/user1/task1/file1.txt /var
+  50 cp /home/user1/task1/file1.txt /var/newfile1.txt
+  51 ls /var/
+  52 cp /home/user1 /var
+  53 cp --help
+  54 cp -r /home/user1 /var
+  55 tree /home/
+  56 mv /home/user2/task2/file2.txt /opt
+  57  tree /home/
+  58 mv /home/user2 /opt/newuser2
+  59 tree /home/
+  60 rename --help
+  61 mv /home/user3/task3/file3.txt /home/user3/task3/123.txt
+  62 tree /home/
+  63 rmdir
+  64 rm --help
+  65 rm -rf
+  66 tree /home/
+  67 rm -rf /home/user4/task4/file4.txt
+  68 tree /home/
+  69 clear
+  70 history
+  71 history > history_linux.txt
